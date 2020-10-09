@@ -5,3 +5,4 @@
    3. Minimizing cost
    4. Multi Variable linear regression
    5. Logistic Regression
+   6. Softmax logistic regression
