@@ -1,3 +1,4 @@
 {
-    "pasteImage.path": "${currentFileDir}/images"
+    "pasteImage.path": "${currentFileDir}/images",
+    "python.pythonPath": "C:\\Users\\sora9z\\anaconda3\\envs\\TF1\\python.exe"
 }
