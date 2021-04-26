@@ -11,7 +11,7 @@
 
 인자로 주어지는 리스트 L 은 정수 원소들로 이루어져 있으며 크기에 따라 (오름차순으로) 정렬되어 있다고 가정합니다.
 
-예를 들어, L = [20, 37, 58, 72, 91] 이고 x = 65 인 경우, 올바른 리턴 값은 [20, 37, 58, 65, 72, 91] 입니다.
+예를 들어, L = (20, 37, 58, 72, 91) 이고 x = 65 인 경우, 올바른 리턴 값은 (20, 37, 58, 65, 72, 91) 입니다.
 
 힌트: 순환문을 이용하여 올바른 위치를 결정하고 insert() 메서드를 이용하여 삽입하는 것이 한 가지 방법입니다.
 
@@ -21,9 +21,31 @@
 
 def solution(L,x):
     len_L=len(L)
-    for i in range(len_L):
-        if x>L[i]:
-            continue
-        else
+    i=0
+    
+    while i<len_L:
+        if x<=L[0]:
+            L.insert(0,x)
+            print("Index 0")
+            break
+        elif x>=L[-1]:
+            L.insert(-1,x)
+            print("last inde")
+            break
+        elif x>L[i]:
+            i+=1
+            print(i)
+        else:
+            L.insert(i,x)
+            print(i,"th indx")
+            break
+
 L=[1,4,6,8,10]
+x=int(input("Enter an integer:"))
+print("Befor:",L)
+solution(L,x)
+print("After:",L)
+
+
+
 
