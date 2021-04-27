@@ -17,8 +17,9 @@
 
 주의: 리스트 내에 존재하는 모든 원소들보다 작거나 모든 원소들보다 큰 정수가 주어지는 경우에 대해서도 올바르게 처리해야 합니다.
 '''
-### Do it myself
+### Do it myself #1
 
+'''
 def solution(L,x):
     len_L=len(L)
     i=0
@@ -45,7 +46,30 @@ x=int(input("Enter an integer:"))
 print("Befor:",L)
 solution(L,x)
 print("After:",L)
+### This code is too long.. tru again
+'''
+### Do it myself 2
+def solution(L,x):
+    len_L=len(L)
+    i=0
+    
+    while i<=len_L:
+        if x>L[-1]:
+            L.insert(len_L,x)
+            print("Index ",len_L)
+            break
+        elif x>L[i]:
+            i+=1
+        else:
+            L.insert(i,x)
+            print(i,"th indx")
+            break
 
+L=[1,4,6,8,10]
+x=int(input("Enter an integer:"))
+print("Befor:",L)
+solution(L,x)
+print("After:",L)
 
 
 
