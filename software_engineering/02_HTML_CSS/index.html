@@ -5,21 +5,20 @@
     <title>Modern CSS</title>
     <!--link tag 안에서 "href" 속성을 통해 CSS와 HTML을 연결한다.
     rel 속성 : 연결하고자 하는 파일의 역할 or 특징을 나타낸다 
-        - CSS는 Cascading Style Sheet 이므로 stylesheet를 추가한다.
+            - CSS는 Cascading Style Sheet 이므로 stylesheet를 추가한다.
     href 속성 : 파일의 위치를 추가
-        - 다른 디렉터리에 위치할 경우 상대 or 절대 경로를 입력하여 연결
--->
+            - 다른 디렉터리에 위치할 경우 상대 or 절대 경로를 입력하여 연결 -->
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="layout.css"/>
+    <!-- <link rel="stylesheet" href="layout.css"/>  -->
 </head>
 <body>This is the header.</header>
 <div class="container">
     <nav> 
-    <!--<nav> 요소는 문서의 부분 중 페이지 링크를 보여주는 구획을 나타낸다-->
+    <!--<nav> 요소는 문서의 부분 중 페이지 링크를 보여주는 구획을 나타낸다 -->
         <h4>This is the navigation section.</h4>
-        <!--동일한 스타일의 CSS를 여러  element에 적요하기 위해서 class를 사용한다-->
+        <!-- 동일한 스타일의 CSS를 여러  element에 적요하기 위해서 class를 사용한다 -->
         <ul>
-            <li class="menu-item selected">Home</li><!--하나의 element에 여러 class 적용 가능-->
+            <li class="menu-item selected">Home</li> <!--하 나의 element에 여러 class 적용 가능하다. -->
             <li class="menu-item">Max</li>
             <li class="menu-item">iPhone</li>
         </ul>
@@ -29,14 +28,13 @@
         <p>...</p>
     </main>
     <aside>
-        <!--CSS 에서 navigation section의 h4 요소만 변경하고자 하는 경우,id를 붙인다.-->
+        <!-- CSS 에서 navigation section의 h4 요소만 변경하고자 하는 경우,id를 붙인다. -->
         <h4 id="navigation-title">This is an aside section.</h4>
         <p>...</p>
     </aside>
 </div>
 <footer>
-<!--<fotter>element는 가장 가까운 콘텐트나 구획루트의 푸터를 나타낸다 푸터는 일반적으로 
-구획의 작성자, 저작권 정보, 관련 문서 등의 내용을 담는다-->
+<!-- <fotter>element는 가장 가까운 콘텐트나 구획루트의 푸터를 나타낸다 푸터는 일반적으로 구획의 작성자, 저작권 정보, 관련 문서 등의 내용을 담는다 -->
     <ul>
         <li>개인정보 처리방침</li>
         <li>이용 약관</li>

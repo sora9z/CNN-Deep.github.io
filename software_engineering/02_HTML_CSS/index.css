@@ -7,15 +7,7 @@
   selector는 태그 이름이다 id or class를 선택한다. selector로 특정 요소를 선택하고, 중괄호 안에서 이 요소에 적용할 내용을 작성한다.
 - { } = > Declaration block
 - color : red; => Property : Value => Declaration 
-  이 element의 색상을 빨간색으로 스타일링 한다.
-  
-<Question>
-- 아래의 예제에서 등장하는 속성들은 어떤 것들이 있나?
-    - 텍스트이 가운데 정렬을 하기 위한 속성은?
-    - 글자 색을 바꾸기 위한 속성은?
-    - background 속성과 background-color 속성은 어떻게 다른가?
-    - em의 의미는 무엇인가?
-  */
+  이 element의 색상을 빨간색으로 스타일링 한다.*/
   
 
 
