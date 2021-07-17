@@ -1,0 +1,61 @@
+
+/* class 이름과 구련을 1:1로 일치시켜 아주 작은 단위로 CSS를 작성하는 기법 : Atomic CSS 방법론 이라고 한다.
+참조 : https://www.sitepoint.com/css-architecture-block-element-modifier-bem-atomic-css/ 
+*/
+
+/* layout reseat */
+*{
+    box-sizing:border-box;
+    
+}
+body {
+    margin:0;
+    padding:0;
+}  
+
+#container {
+    display: flex;
+    border: 1px ;
+    padding: 10px;
+    min-height:100vh;
+}
+
+.icon {
+    border: 1px dashed orange;
+    margin: 0.4rem;   
+}
+
+.col {
+    display:flex;
+    flex-direction: column;
+    border:1px solid red;
+    padding: 0.4rem;
+ }
+
+ .row {
+     border: 1px dashed violet;
+ }
+
+.w10 {
+    flex: 1 0 0;      
+}
+
+.w20 {
+    flex: 2 0 0;   
+}
+
+.w70 {flex: 7 0 0;    
+}
+
+.h40 {flex: 4 0 0;
+}
+.h20{
+    flex:2 0 0 ;
+}
+.h80{
+    flex:8 0 0;
+}
+
+
+
+
