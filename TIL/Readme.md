@@ -5,8 +5,8 @@
 1. To-Do-List
 오늘 할 일을 간단하게 작성한다
 
-2. To-Done-List
-오늘 한 일을 간단하게 작성한다.
+2. Today I Learned
+오늘 배운 것들에 대해 기록한다.
 
 3. Retrospective
 오늘 하루에 대한 회로를 간단하게 작성한다.
