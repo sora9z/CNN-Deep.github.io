@@ -1,0 +1,47 @@
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+#writing-section{
+    border:1px dashed red;
+    padding: 10px;  
+    
+   
+}
+
+#reading-section{
+    border:1px dashed red;
+    padding : 10px;
+   
+}
+
+#new-comment-content{
+    width:50rem;
+    border:1px solid black;
+    padding:2px;
+}
+#register{
+    border:1px solid black;
+    padding:1px;    
+}
+
+.comment{
+    border:1px solid black;
+    padding:0px;
+    margin: 20px;
+}
+img {
+    border:1px solid black;
+    width:20px;
+    height:20px;
+    object-fit:cover    
+}
+
+
